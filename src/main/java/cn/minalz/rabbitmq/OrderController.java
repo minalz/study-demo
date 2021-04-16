@@ -26,7 +26,7 @@ public class OrderController {
 
     /**
      * 模拟提交订单
-     * @author nxq
+     * @author minalz
      * @return java.lang.Object
      */
     @GetMapping("")
