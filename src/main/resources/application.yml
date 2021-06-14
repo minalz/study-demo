@@ -20,7 +20,7 @@ mybatis:
 # Kafka Producer
 kafka:
   producer:
-    servers: "192.1.136.119:9092"
+    servers: "192.168.56.101:9092,192.168.56.102:9092,192.168.56.103:9092"
     retries: 0
     batch:
       size: 16384
@@ -32,7 +32,7 @@ kafka:
 # Kafka Consumer
 kafka:
   consumer:
-    servers: "192.1.136.119:9092"
+    servers: "192.168.56.101:9092,192.168.56.102:9092,192.168.56.103:9092"
     enable:
       auto:
         commit: false
