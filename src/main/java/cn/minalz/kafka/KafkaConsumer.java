@@ -8,6 +8,7 @@ import java.util.Optional;
 
 @Component
 public class KafkaConsumer {
+
     @KafkaListener(topics = {"test"})
     public void listener(ConsumerRecord record) {
         Optional<?> msg = Optional.ofNullable(record.value());

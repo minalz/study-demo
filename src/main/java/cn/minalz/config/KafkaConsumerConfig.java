@@ -115,7 +115,7 @@ public class KafkaConsumerConfig {
   protected RetryPolicy retryPolicy() {
       SimpleRetryPolicy policy = new SimpleRetryPolicy();
       // 重试10次，还是错误的话，就停止consumer
-      policy.setMaxAttempts(10);
+      policy.setMaxAttempts(3);
       return policy;
   }
 

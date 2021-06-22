@@ -13,31 +13,14 @@ public class ScmciwhReceiveListener {
 
     @KafkaListener(topics = "#{'${kafka.receive.topic}'.split(',')}", groupId = "${kafka.receive.group}")
     public void listen(ConsumerRecord<?, ?> record, Acknowledgment ack) {
+        String result = record.value().toString();
         try {
-            String result = record.value().toString();
+            logger.info("消费端接收成功：" + result);
+            ack.acknowledge();
         } catch (Exception e) {
+            logger.error("消费端接收失败：" + result);
             e.printStackTrace();
         }
     }
-
-
-
-     @KafkaListener(topics = "#{'${kafka.qms.receive.topic}'.split(',')}", groupId = "${kafka.receive.group}")
-     public void listenQms(ConsumerRecord<?, ?> record, Acknowledgment ack) {
-         try {
-             String result = record.value().toString();
-             ack.acknowledge();
-         } catch (Exception e) {
-         }
-     }
-
-     @KafkaListener(topics = "#{'${kafka.qms.return.receive.topic}'.split(',')}", groupId = "${kafka.receive.group}")
-     public void listenQmsReturn(ConsumerRecord<?, ?> record, Acknowledgment ack) {
-         try {
-             String result = record.value().toString();
-             ack.acknowledge();
-         } catch (Exception e) {
-         }
-     }
 
 }

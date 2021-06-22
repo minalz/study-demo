@@ -18,7 +18,7 @@ import com.rabbitmq.client.Channel;
 /**
  * @description: 订单失效监听器
  **/
-@Component
+//@Component
 public class OrderFailureListener {
     private static final Logger logger =  LoggerFactory.getLogger(OrderFailureListener.class);
 

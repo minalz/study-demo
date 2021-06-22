@@ -27,6 +27,7 @@ public class KafkaProducerConfig {
     private int linger;
     @Value("${kafka.producer.buffer.memory}")
     private int bufferMemory;
+
     private String SASL_PLAINTEXT = "SASL_PLAINTEXT";
     private String PLAIN = "PLAIN";
 

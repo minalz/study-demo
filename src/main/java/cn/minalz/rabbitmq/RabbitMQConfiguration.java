@@ -13,7 +13,7 @@ import java.util.Map;
 /**
  * @description: rabbitMQ配置信息
  **/
-@Configuration
+//@Configuration
 public class RabbitMQConfiguration {
     //队列名称
    public   final static String orderQueue = "order_queue";

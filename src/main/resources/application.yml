@@ -7,12 +7,12 @@ spring:
     url: jdbc:mysql://localhost:3306/study-demo
     username: root
     password: 123456
-  rabbitmq:
-    host:
-    port: 9002
-    virtual-host: my_vhost
-    username: admin
-    password: adminand123
+#  rabbitmq:
+#    host:
+#    port: 9002
+#    virtual-host: my_vhost
+#    username: admin
+#    password: adminand123
 
 mybatis:
   mapperLocations: classpath:mapper/*.xml
@@ -27,6 +27,9 @@ kafka:
     linger: 1
     buffer:
       memory: 33554432
+  receive:
+    topic: kafka-test
+    group: kafka-300
 
 ---
 # Kafka Consumer
@@ -43,5 +46,5 @@ kafka:
         interval: 100
       offset:
         reset: earliest
-    group.id: group-300
+    group.id: kafka-300
     concurrency: 1
