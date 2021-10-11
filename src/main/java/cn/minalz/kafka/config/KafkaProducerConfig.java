@@ -1,4 +1,4 @@
-package cn.minalz.config;
+package cn.minalz.kafka.config;
 
 import org.apache.kafka.clients.producer.ProducerConfig;
 import org.apache.kafka.common.serialization.StringSerializer;

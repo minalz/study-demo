@@ -1,4 +1,4 @@
-package cn.minalz.config;
+package cn.minalz.kafka.config;
 
 import cn.minalz.listener.ScmciwhReceiveListener;
 import org.apache.kafka.clients.consumer.ConsumerConfig;
