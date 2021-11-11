@@ -1,5 +1,7 @@
 package cn.minalz.serialization.socket;
 
+import cn.minalz.serialization.pojo.User;
+
 import java.io.IOException;
 import java.io.ObjectOutputStream;
 import java.net.Socket;
@@ -17,6 +19,7 @@ public class SocketClientConsumer {
             socket = new Socket("localhost", 8080);
             User user = new User();
             user.setName("minalz");
+            user.setAge(18);
             out = new ObjectOutputStream(socket.getOutputStream());
             out.writeObject(user);
         } catch (IOException e) {
