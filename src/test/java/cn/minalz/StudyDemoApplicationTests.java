@@ -10,4 +10,10 @@ class StudyDemoApplicationTests {
     void contextLoads() {
     }
 
+    public static void main(String[] args) {
+        String name = "1";
+        // \u000d name = "2";
+        System.out.println(name);
+    }
+
 }
