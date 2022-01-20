@@ -2,9 +2,11 @@ package cn.minalz.generate;
 
 import com.baomidou.mybatisplus.annotation.DbType;
 import com.baomidou.mybatisplus.generator.AutoGenerator;
-import com.baomidou.mybatisplus.generator.config.*;
+import com.baomidou.mybatisplus.generator.config.DataSourceConfig;
+import com.baomidou.mybatisplus.generator.config.GlobalConfig;
+import com.baomidou.mybatisplus.generator.config.PackageConfig;
+import com.baomidou.mybatisplus.generator.config.StrategyConfig;
 import com.baomidou.mybatisplus.generator.config.rules.NamingStrategy;
-import com.baomidou.mybatisplus.generator.engine.BeetlTemplateEngine;
 
 /**
  * mybatis-plus代码生成器
@@ -17,7 +19,7 @@ public class CodeGenerator {
         AutoGenerator mpg = new AutoGenerator();
 
         // set beetl engine
-        mpg.setTemplateEngine(new BeetlTemplateEngine());
+/*        mpg.setTemplateEngine(new BeetlTemplateEngine());
 
         //指定自定义模板路径, 位置：/resources/templates/entity2.java.ftl(或者是.vm)
         //注意不要带上.ftl(或者是.vm), 会根据使用的模板引擎自动识别
@@ -29,7 +31,7 @@ public class CodeGenerator {
         tc.setMapper("templates/mapper.java");
         tc.setXml("templates/mapper.xml");
         // 如上任何一个模块如果设置 空 OR Null 将不生成该模块。
-        mpg.setTemplate(tc);
+        mpg.setTemplate(tc);*/
          
         // 2、全局配置
         GlobalConfig gc = new GlobalConfig();
@@ -37,12 +39,15 @@ public class CodeGenerator {
 //        gc.setOutputDir(projectPath + "/src/main/java");
         gc.setOutputDir("/Users/zhouwei/Documents/generatecode");
         gc.setAuthor("minalz");
-        gc.setOpen(false); //生成后是否打开资源管理器
-        gc.setFileOverride(true); //重新生成时文件是否覆盖
+        //生成后是否打开资源管理器
+        gc.setOpen(false);
+        //重新生成时文件是否覆盖
+        gc.setFileOverride(true);
 //        gc.setServiceName("%sService"); //去掉Service接口的首字母I
 //        gc.setIdType(IdType.ID_WORKER_STR); //主键策略
 //        gc.setDateType(DateType.ONLY_DATE);//定义生成的实体类中日期类型
-        gc.setSwagger2(true); //开启Swagger2模式
+        //开启Swagger2模式
+        gc.setSwagger2(true);
 
         mpg.setGlobalConfig(gc);
 
@@ -57,7 +62,8 @@ public class CodeGenerator {
 
         // 4、包配置
         PackageConfig pc = new PackageConfig();
-        pc.setModuleName(null); //模块名
+        //模块名
+        pc.setModuleName(null);
         pc.setParent("cn.minalz");
         pc.setController("controller");
         pc.setEntity("entity");
@@ -68,15 +74,22 @@ public class CodeGenerator {
 
         // 5、策略配置
         StrategyConfig strategy = new StrategyConfig();
-        strategy.setInclude("user"); //对哪一张表生成代码
-        strategy.setNaming(NamingStrategy.underline_to_camel); //数据库表映射到实体的命名策略
-        strategy.setTablePrefix(pc.getModuleName() + "_"); //生成实体时去掉表前缀
+        //对哪一张表生成代码
+        strategy.setInclude("user");
+        //数据库表映射到实体的命名策略
+        strategy.setNaming(NamingStrategy.underline_to_camel);
+        //生成实体时去掉表前缀
+        strategy.setTablePrefix(pc.getModuleName() + "_");
 
-        strategy.setColumnNaming(NamingStrategy.underline_to_camel); //数据库表字段映射到实体的命名策略
-        strategy.setEntityLombokModel(true); // lombok 模型 @Accessors(chain = true) setter链式操作
+        //数据库表字段映射到实体的命名策略
+        strategy.setColumnNaming(NamingStrategy.underline_to_camel);
+        // lombok 模型 @Accessors(chain = true) setter链式操作
+        strategy.setEntityLombokModel(true);
 
-        strategy.setRestControllerStyle(true); //restful api风格控制器
-        strategy.setControllerMappingHyphenStyle(true); //url中驼峰转连字符
+        //restful api风格控制器
+        strategy.setRestControllerStyle(true);
+        //url中驼峰转连字符
+        strategy.setControllerMappingHyphenStyle(true);
 
         mpg.setStrategy(strategy);
 
