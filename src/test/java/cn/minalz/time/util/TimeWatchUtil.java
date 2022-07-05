@@ -52,4 +52,12 @@ public class TimeWatchUtil {
         System.out.println(sw.prettyPrint());
     }
 
+    /**
+     * 1、getTotalTimeSeconds() 获取总耗时秒，同时也有获取毫秒的方法
+     * 2、prettyPrint() 优雅的格式打印结果，表格形式
+     * 3、shortSummary() 返回简短的总耗时描述
+     * 4、getTaskCount() 返回统计时间任务的数量
+     * 5、getLastTaskInfo().getTaskName() 返回最后一个任务TaskInfo对象的名称
+     */
+
 }
