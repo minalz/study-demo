@@ -11,13 +11,13 @@ import org.springframework.web.bind.annotation.RestController;
  */
 @AllArgsConstructor
 @RestController
-@RequestMapping("/retry")
-public class RetryController {
+@RequestMapping("/retry/test")
+public class RetryTestController {
 
-    private final RetryServiceImpl retryService;
+    private final RetryTestService retryTestService;
 
-    @GetMapping("")
-    public Object submit(){
-        retryService.retry();
+    @GetMapping("/submit")
+    public void submit() throws CustomRetryException {
+        retryTestService.submit();
     }
 }
