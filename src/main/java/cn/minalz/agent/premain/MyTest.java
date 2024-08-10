@@ -1,4 +1,4 @@
-package cn.minalz.agent;
+package cn.minalz.agent.premain;
 
 public class MyTest {
     public static void main(String[] args) throws InterruptedException {

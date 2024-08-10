@@ -1,4 +1,4 @@
-package cn.minalz.agent;
+package cn.minalz.agent.premain;
 
 import java.lang.instrument.Instrumentation;
 
@@ -7,7 +7,7 @@ import java.lang.instrument.Instrumentation;
  * @author zhouwei
  * @date 2024/8/6 11:52
  */
-public class AgentMain {
+public class PreMain {
 
     // premain()函数中注册MyClassFileTransformer转换器
     public static void premain(String agentArgs, Instrumentation instrumentation) {

@@ -1,0 +1,416 @@
+2024-08-10 08:10:18.349 [main] INFO  org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [cn.minalz.example.SampleTest], using SpringBootContextLoader
+2024-08-10 08:10:18.355 [main] INFO  org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [cn.minalz.example.SampleTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2024-08-10 08:10:18.356 [main] INFO  org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [cn.minalz.example.SampleTest]: SampleTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2024-08-10 08:10:18.475 [main] INFO  org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [cn.minalz.threadpool.ThreadPoolTest], using SpringBootContextLoader
+2024-08-10 08:10:18.476 [main] INFO  org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [cn.minalz.threadpool.ThreadPoolTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2024-08-10 08:10:18.553 [main] INFO  org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2024-08-10 08:10:18.567 [main] INFO  org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@2dc9b0f5, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@6531a794, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@3b5fad2d, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@5e17553a, org.springframework.test.context.support.DirtiesContextTestExecutionListener@3eb91815, org.springframework.test.context.transaction.TransactionalTestExecutionListener@56dc1551, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@102cec62, org.springframework.test.context.event.EventPublishingTestExecutionListener@74f6c5d8, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@27912e3, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@34b9f960, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@43015c69, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@19b89d4, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@4bbf6d0e]
+2024-08-10 08:10:18.575 [main] INFO  org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [cn.minalz.example.SampleTest], using SpringBootContextLoader
+2024-08-10 08:10:18.576 [main] INFO  org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [cn.minalz.example.SampleTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2024-08-10 08:10:18.576 [main] INFO  org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [cn.minalz.example.SampleTest]: SampleTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2024-08-10 08:10:18.584 [main] INFO  org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [cn.minalz.threadpool.ThreadPoolTest], using SpringBootContextLoader
+2024-08-10 08:10:18.585 [main] INFO  org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [cn.minalz.threadpool.ThreadPoolTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2024-08-10 08:10:18.587 [main] INFO  org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2024-08-10 08:10:18.587 [main] INFO  org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@72ef8d15, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@6aa8e115, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@5e21e98f, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@51a9ad5e, org.springframework.test.context.support.DirtiesContextTestExecutionListener@5f20155b, org.springframework.test.context.transaction.TransactionalTestExecutionListener@72ade7e3, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@239105a8, org.springframework.test.context.event.EventPublishingTestExecutionListener@3fce8fd9, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@609bcfb6, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@7d94beb9, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@560348e6, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@1df8b5b8, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@23202fce]
+2024-08-10 08:10:18.641 [main] INFO  org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [cn.minalz.StudyDemoApplicationTests], using SpringBootContextLoader
+2024-08-10 08:10:18.642 [main] INFO  org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [cn.minalz.StudyDemoApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+2024-08-10 08:10:18.642 [main] INFO  org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [cn.minalz.StudyDemoApplicationTests]: StudyDemoApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2024-08-10 08:10:18.648 [main] INFO  org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [cn.minalz.StudyDemoApplicationTests], using SpringBootContextLoader
+2024-08-10 08:10:18.649 [main] INFO  org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [cn.minalz.StudyDemoApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+2024-08-10 08:10:18.649 [main] INFO  org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [cn.minalz.StudyDemoApplicationTests]: StudyDemoApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2024-08-10 08:10:18.654 [main] INFO  org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [cn.minalz.StudyDemoApplicationTests], using SpringBootContextLoader
+2024-08-10 08:10:18.655 [main] INFO  org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [cn.minalz.StudyDemoApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+2024-08-10 08:10:18.655 [main] INFO  org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [cn.minalz.StudyDemoApplicationTests]: StudyDemoApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2024-08-10 08:10:23.729 [main] INFO  cn.minalz.threadpool.ThreadPoolTest - Starting ThreadPoolTest on DESKTOP-O81UJ9D with PID 7660 (started by pc in D:\BBBWorkSpace\study-demo)
+2024-08-10 08:10:23.730 [main] INFO  cn.minalz.threadpool.ThreadPoolTest - No active profile set, falling back to default profiles: default
+2024-08-10 08:10:24.686 [main] INFO  cn.minalz.threadpool.ExecutorConfig - start asyncServiceExecutor
+2024-08-10 08:10:24.687 [main] INFO  cn.minalz.threadpool.VisiableThreadPoolTaskExecutor - Initializing ExecutorService
+2024-08-10 08:10:24.693 [main] INFO  cn.minalz.threadpool.VisiableThreadPoolTaskExecutor - Initializing ExecutorService 'asyncServiceExecutor'
+2024-08-10 08:10:25.970 [main] INFO  org.springframework.amqp.rabbit.connection.CachingConnectionFactory - Attempting to connect to: [192.168.3.104:5672]
+2024-08-10 08:10:26.009 [main] INFO  org.springframework.amqp.rabbit.connection.CachingConnectionFactory - Created new connection: rabbitConnectionFactory#3679d92e:0/SimpleConnection@45a1d057 [delegate=amqp://admin@192.168.3.104:5672/my_vhost, localPort= 51366]
+2024-08-10 08:10:26.048 [main] INFO  cn.minalz.threadpool.ThreadPoolTest - Started ThreadPoolTest in 2.491 seconds (JVM running for 8.247)
+2024-08-10 08:10:26.178 [main] INFO  cn.minalz.threadpool.VisiableThreadPoolTaskExecutor - async-service-, 2. do submit,taskCount [0], completedTaskCount [0], activeCount [0], queueSize [0]
+2024-08-10 08:10:26.180 [main] INFO  cn.minalz.threadpool.VisiableThreadPoolTaskExecutor - async-service-, 2. do submit,taskCount [1], completedTaskCount [0], activeCount [1], queueSize [0]
+2024-08-10 08:10:26.180 [async-service-1] INFO  cn.minalz.threadpool.AsyncServiceImpl - start executeAsync
+2024-08-10 08:10:26.180 [async-service-1] INFO  cn.minalz.threadpool.AsyncServiceImpl - end executeAsync
+2024-08-10 08:10:26.180 [main] INFO  cn.minalz.threadpool.VisiableThreadPoolTaskExecutor - async-service-, 2. do submit,taskCount [2], completedTaskCount [0], activeCount [2], queueSize [0]
+2024-08-10 08:10:26.181 [async-service-2] INFO  cn.minalz.threadpool.AsyncServiceImpl - start executeAsync
+2024-08-10 08:10:26.181 [async-service-2] INFO  cn.minalz.threadpool.AsyncServiceImpl - end executeAsync
+2024-08-10 08:10:26.181 [main] INFO  cn.minalz.threadpool.VisiableThreadPoolTaskExecutor - async-service-, 2. do submit,taskCount [3], completedTaskCount [1], activeCount [2], queueSize [0]
+2024-08-10 08:10:26.181 [async-service-3] INFO  cn.minalz.threadpool.AsyncServiceImpl - start executeAsync
+2024-08-10 08:10:26.181 [async-service-3] INFO  cn.minalz.threadpool.AsyncServiceImpl - end executeAsync
+2024-08-10 08:10:26.181 [main] INFO  cn.minalz.threadpool.VisiableThreadPoolTaskExecutor - async-service-, 2. do submit,taskCount [4], completedTaskCount [2], activeCount [2], queueSize [0]
+2024-08-10 08:10:26.181 [async-service-4] INFO  cn.minalz.threadpool.AsyncServiceImpl - start executeAsync
+2024-08-10 08:10:26.182 [main] INFO  cn.minalz.threadpool.VisiableThreadPoolTaskExecutor - async-service-, 2. do submit,taskCount [5], completedTaskCount [3], activeCount [2], queueSize [0]
+2024-08-10 08:10:26.182 [async-service-1] INFO  cn.minalz.threadpool.AsyncServiceImpl - start executeAsync
+2024-08-10 08:10:26.182 [async-service-1] INFO  cn.minalz.threadpool.AsyncServiceImpl - end executeAsync
+2024-08-10 08:10:26.182 [main] INFO  cn.minalz.threadpool.VisiableThreadPoolTaskExecutor - async-service-, 2. do submit,taskCount [5], completedTaskCount [3], activeCount [3], queueSize [0]
+2024-08-10 08:10:26.182 [async-service-4] INFO  cn.minalz.threadpool.AsyncServiceImpl - end executeAsync
+2024-08-10 08:10:26.182 [main] INFO  cn.minalz.threadpool.VisiableThreadPoolTaskExecutor - async-service-, 2. do submit,taskCount [7], completedTaskCount [4], activeCount [2], queueSize [1]
+2024-08-10 08:10:26.182 [async-service-3] INFO  cn.minalz.threadpool.AsyncServiceImpl - start executeAsync
+2024-08-10 08:10:26.182 [main] INFO  cn.minalz.threadpool.VisiableThreadPoolTaskExecutor - async-service-, 2. do submit,taskCount [8], completedTaskCount [5], activeCount [3], queueSize [0]
+2024-08-10 08:10:26.182 [async-service-3] INFO  cn.minalz.threadpool.AsyncServiceImpl - end executeAsync
+2024-08-10 08:10:26.182 [async-service-3] INFO  cn.minalz.threadpool.AsyncServiceImpl - start executeAsync
+2024-08-10 08:10:26.182 [main] INFO  cn.minalz.threadpool.VisiableThreadPoolTaskExecutor - async-service-, 2. do submit,taskCount [8], completedTaskCount [6], activeCount [3], queueSize [0]
+2024-08-10 08:10:26.182 [async-service-3] INFO  cn.minalz.threadpool.AsyncServiceImpl - end executeAsync
+2024-08-10 08:10:26.182 [async-service-4] INFO  cn.minalz.threadpool.AsyncServiceImpl - start executeAsync
+2024-08-10 08:10:26.182 [main] INFO  cn.minalz.threadpool.VisiableThreadPoolTaskExecutor - async-service-, 2. do submit,taskCount [10], completedTaskCount [6], activeCount [3], queueSize [1]
+2024-08-10 08:10:26.182 [async-service-2] INFO  cn.minalz.threadpool.AsyncServiceImpl - start executeAsync
+2024-08-10 08:10:26.182 [async-service-5] INFO  cn.minalz.threadpool.AsyncServiceImpl - start executeAsync
+2024-08-10 08:10:26.182 [async-service-2] INFO  cn.minalz.threadpool.AsyncServiceImpl - end executeAsync
+2024-08-10 08:10:26.182 [async-service-1] INFO  cn.minalz.threadpool.AsyncServiceImpl - start executeAsync
+2024-08-10 08:10:26.182 [async-service-5] INFO  cn.minalz.threadpool.AsyncServiceImpl - end executeAsync
+2024-08-10 08:10:26.182 [async-service-4] INFO  cn.minalz.threadpool.AsyncServiceImpl - end executeAsync
+2024-08-10 08:10:26.182 [main] INFO  cn.minalz.threadpool.VisiableThreadPoolTaskExecutor - async-service-, 2. do submit,taskCount [11], completedTaskCount [7], activeCount [4], queueSize [0]
+2024-08-10 08:10:26.182 [async-service-1] INFO  cn.minalz.threadpool.AsyncServiceImpl - end executeAsync
+2024-08-10 08:10:26.183 [main] INFO  cn.minalz.threadpool.VisiableThreadPoolTaskExecutor - async-service-, 2. do submit,taskCount [12], completedTaskCount [11], activeCount [0], queueSize [1]
+2024-08-10 08:10:26.183 [main] INFO  cn.minalz.threadpool.VisiableThreadPoolTaskExecutor - async-service-, 2. do submit,taskCount [13], completedTaskCount [11], activeCount [0], queueSize [2]
+2024-08-10 08:10:26.183 [main] INFO  cn.minalz.threadpool.VisiableThreadPoolTaskExecutor - async-service-, 2. do submit,taskCount [14], completedTaskCount [11], activeCount [0], queueSize [3]
+2024-08-10 08:10:26.184 [async-service-3] INFO  cn.minalz.threadpool.AsyncServiceImpl - start executeAsync
+2024-08-10 08:10:26.184 [async-service-3] INFO  cn.minalz.threadpool.AsyncServiceImpl - end executeAsync
+2024-08-10 08:10:26.184 [async-service-3] INFO  cn.minalz.threadpool.AsyncServiceImpl - start executeAsync
+2024-08-10 08:10:26.184 [async-service-3] INFO  cn.minalz.threadpool.AsyncServiceImpl - end executeAsync
+2024-08-10 08:10:26.184 [async-service-3] INFO  cn.minalz.threadpool.AsyncServiceImpl - start executeAsync
+2024-08-10 08:10:26.184 [async-service-3] INFO  cn.minalz.threadpool.AsyncServiceImpl - end executeAsync
+2024-08-10 08:10:26.184 [async-service-3] INFO  cn.minalz.threadpool.AsyncServiceImpl - start executeAsync
+2024-08-10 08:10:26.184 [async-service-3] INFO  cn.minalz.threadpool.AsyncServiceImpl - end executeAsync
+2024-08-10 08:10:26.183 [main] INFO  cn.minalz.threadpool.VisiableThreadPoolTaskExecutor - async-service-, 2. do submit,taskCount [15], completedTaskCount [11], activeCount [0], queueSize [4]
+2024-08-10 08:10:26.184 [main] INFO  cn.minalz.threadpool.VisiableThreadPoolTaskExecutor - async-service-, 2. do submit,taskCount [16], completedTaskCount [15], activeCount [0], queueSize [1]
+2024-08-10 08:10:26.186 [main] INFO  cn.minalz.threadpool.VisiableThreadPoolTaskExecutor - async-service-, 2. do submit,taskCount [17], completedTaskCount [15], activeCount [0], queueSize [2]
+2024-08-10 08:10:26.187 [async-service-4] INFO  cn.minalz.threadpool.AsyncServiceImpl - start executeAsync
+2024-08-10 08:10:26.187 [async-service-4] INFO  cn.minalz.threadpool.AsyncServiceImpl - end executeAsync
+2024-08-10 08:10:26.187 [async-service-2] INFO  cn.minalz.threadpool.AsyncServiceImpl - start executeAsync
+2024-08-10 08:10:26.187 [async-service-2] INFO  cn.minalz.threadpool.AsyncServiceImpl - end executeAsync
+2024-08-10 08:10:26.187 [main] INFO  cn.minalz.threadpool.VisiableThreadPoolTaskExecutor - async-service-, 2. do submit,taskCount [18], completedTaskCount [16], activeCount [2], queueSize [0]
+2024-08-10 08:10:26.187 [main] INFO  cn.minalz.threadpool.VisiableThreadPoolTaskExecutor - async-service-, 2. do submit,taskCount [19], completedTaskCount [17], activeCount [1], queueSize [1]
+2024-08-10 08:10:26.187 [async-service-5] INFO  cn.minalz.threadpool.AsyncServiceImpl - start executeAsync
+2024-08-10 08:10:26.187 [async-service-5] INFO  cn.minalz.threadpool.AsyncServiceImpl - end executeAsync
+2024-08-10 08:10:26.188 [async-service-1] INFO  cn.minalz.threadpool.AsyncServiceImpl - start executeAsync
+2024-08-10 08:10:26.188 [async-service-1] INFO  cn.minalz.threadpool.AsyncServiceImpl - end executeAsync
+2024-08-10 08:10:26.187 [main] INFO  cn.minalz.threadpool.VisiableThreadPoolTaskExecutor - async-service-, 2. do submit,taskCount [20], completedTaskCount [17], activeCount [2], queueSize [1]
+2024-08-10 08:10:26.188 [async-service-3] INFO  cn.minalz.threadpool.AsyncServiceImpl - start executeAsync
+2024-08-10 08:10:26.188 [main] INFO  cn.minalz.threadpool.VisiableThreadPoolTaskExecutor - async-service-, 2. do submit,taskCount [21], completedTaskCount [19], activeCount [1], queueSize [1]
+2024-08-10 08:10:26.188 [main] INFO  cn.minalz.threadpool.VisiableThreadPoolTaskExecutor - async-service-, 2. do submit,taskCount [22], completedTaskCount [19], activeCount [1], queueSize [2]
+2024-08-10 08:10:26.188 [async-service-3] INFO  cn.minalz.threadpool.AsyncServiceImpl - end executeAsync
+2024-08-10 08:10:26.189 [async-service-2] INFO  cn.minalz.threadpool.AsyncServiceImpl - start executeAsync
+2024-08-10 08:10:26.189 [async-service-3] INFO  cn.minalz.threadpool.AsyncServiceImpl - start executeAsync
+2024-08-10 08:10:26.189 [async-service-5] INFO  cn.minalz.threadpool.AsyncServiceImpl - start executeAsync
+2024-08-10 08:10:26.189 [main] INFO  cn.minalz.threadpool.VisiableThreadPoolTaskExecutor - async-service-, 2. do submit,taskCount [23], completedTaskCount [20], activeCount [3], queueSize [0]
+2024-08-10 08:10:26.189 [async-service-3] INFO  cn.minalz.threadpool.AsyncServiceImpl - end executeAsync
+2024-08-10 08:10:26.189 [async-service-2] INFO  cn.minalz.threadpool.AsyncServiceImpl - end executeAsync
+2024-08-10 08:10:26.189 [async-service-4] INFO  cn.minalz.threadpool.AsyncServiceImpl - start executeAsync
+2024-08-10 08:10:26.189 [async-service-5] INFO  cn.minalz.threadpool.AsyncServiceImpl - end executeAsync
+2024-08-10 08:10:26.189 [main] INFO  cn.minalz.threadpool.VisiableThreadPoolTaskExecutor - async-service-, 2. do submit,taskCount [24], completedTaskCount [20], activeCount [4], queueSize [0]
+2024-08-10 08:10:26.189 [async-service-4] INFO  cn.minalz.threadpool.AsyncServiceImpl - end executeAsync
+2024-08-10 08:10:26.189 [async-service-1] INFO  cn.minalz.threadpool.AsyncServiceImpl - start executeAsync
+2024-08-10 08:10:26.189 [main] INFO  cn.minalz.threadpool.VisiableThreadPoolTaskExecutor - async-service-, 2. do submit,taskCount [25], completedTaskCount [24], activeCount [1], queueSize [0]
+2024-08-10 08:10:26.189 [async-service-1] INFO  cn.minalz.threadpool.AsyncServiceImpl - end executeAsync
+2024-08-10 08:10:26.190 [async-service-3] INFO  cn.minalz.threadpool.AsyncServiceImpl - start executeAsync
+2024-08-10 08:10:26.190 [main] INFO  cn.minalz.threadpool.VisiableThreadPoolTaskExecutor - async-service-, 2. do submit,taskCount [26], completedTaskCount [24], activeCount [2], queueSize [0]
+2024-08-10 08:10:26.190 [async-service-3] INFO  cn.minalz.threadpool.AsyncServiceImpl - end executeAsync
+2024-08-10 08:10:26.190 [async-service-2] INFO  cn.minalz.threadpool.AsyncServiceImpl - start executeAsync
+2024-08-10 08:10:26.190 [main] INFO  cn.minalz.threadpool.VisiableThreadPoolTaskExecutor - async-service-, 2. do submit,taskCount [27], completedTaskCount [25], activeCount [2], queueSize [0]
+2024-08-10 08:10:26.190 [async-service-2] INFO  cn.minalz.threadpool.AsyncServiceImpl - end executeAsync
+2024-08-10 08:10:26.190 [async-service-5] INFO  cn.minalz.threadpool.AsyncServiceImpl - start executeAsync
+2024-08-10 08:10:26.190 [main] INFO  cn.minalz.threadpool.VisiableThreadPoolTaskExecutor - async-service-, 2. do submit,taskCount [28], completedTaskCount [27], activeCount [1], queueSize [0]
+2024-08-10 08:10:26.190 [async-service-5] INFO  cn.minalz.threadpool.AsyncServiceImpl - end executeAsync
+2024-08-10 08:10:26.190 [async-service-4] INFO  cn.minalz.threadpool.AsyncServiceImpl - start executeAsync
+2024-08-10 08:10:26.190 [async-service-4] INFO  cn.minalz.threadpool.AsyncServiceImpl - end executeAsync
+2024-08-10 08:10:26.190 [main] INFO  cn.minalz.threadpool.VisiableThreadPoolTaskExecutor - async-service-, 2. do submit,taskCount [29], completedTaskCount [27], activeCount [2], queueSize [0]
+2024-08-10 08:10:26.190 [async-service-1] INFO  cn.minalz.threadpool.AsyncServiceImpl - start executeAsync
+2024-08-10 08:10:26.190 [main] INFO  cn.minalz.threadpool.VisiableThreadPoolTaskExecutor - async-service-, 2. do submit,taskCount [30], completedTaskCount [29], activeCount [1], queueSize [0]
+2024-08-10 08:10:26.190 [async-service-1] INFO  cn.minalz.threadpool.AsyncServiceImpl - end executeAsync
+2024-08-10 08:10:26.191 [main] INFO  cn.minalz.threadpool.VisiableThreadPoolTaskExecutor - async-service-, 2. do submit,taskCount [31], completedTaskCount [29], activeCount [1], queueSize [1]
+2024-08-10 08:10:26.191 [async-service-3] INFO  cn.minalz.threadpool.AsyncServiceImpl - start executeAsync
+2024-08-10 08:10:26.191 [async-service-2] INFO  cn.minalz.threadpool.AsyncServiceImpl - start executeAsync
+2024-08-10 08:10:26.191 [async-service-3] INFO  cn.minalz.threadpool.AsyncServiceImpl - end executeAsync
+2024-08-10 08:10:26.191 [main] INFO  cn.minalz.threadpool.VisiableThreadPoolTaskExecutor - async-service-, 2. do submit,taskCount [32], completedTaskCount [30], activeCount [2], queueSize [0]
+2024-08-10 08:10:26.191 [async-service-2] INFO  cn.minalz.threadpool.AsyncServiceImpl - end executeAsync
+2024-08-10 08:10:26.191 [async-service-5] INFO  cn.minalz.threadpool.AsyncServiceImpl - start executeAsync
+2024-08-10 08:10:26.191 [async-service-5] INFO  cn.minalz.threadpool.AsyncServiceImpl - end executeAsync
+2024-08-10 08:10:26.191 [main] INFO  cn.minalz.threadpool.VisiableThreadPoolTaskExecutor - async-service-, 2. do submit,taskCount [33], completedTaskCount [31], activeCount [2], queueSize [0]
+2024-08-10 08:10:26.192 [async-service-4] INFO  cn.minalz.threadpool.AsyncServiceImpl - start executeAsync
+2024-08-10 08:10:26.192 [main] INFO  cn.minalz.threadpool.VisiableThreadPoolTaskExecutor - async-service-, 2. do submit,taskCount [34], completedTaskCount [33], activeCount [1], queueSize [0]
+2024-08-10 08:10:26.192 [async-service-1] INFO  cn.minalz.threadpool.AsyncServiceImpl - start executeAsync
+2024-08-10 08:10:26.192 [async-service-1] INFO  cn.minalz.threadpool.AsyncServiceImpl - end executeAsync
+2024-08-10 08:10:26.192 [async-service-4] INFO  cn.minalz.threadpool.AsyncServiceImpl - end executeAsync
+2024-08-10 08:10:26.192 [main] INFO  cn.minalz.threadpool.VisiableThreadPoolTaskExecutor - async-service-, 2. do submit,taskCount [35], completedTaskCount [33], activeCount [2], queueSize [0]
+2024-08-10 08:10:26.192 [async-service-3] INFO  cn.minalz.threadpool.AsyncServiceImpl - start executeAsync
+2024-08-10 08:10:26.192 [main] INFO  cn.minalz.threadpool.VisiableThreadPoolTaskExecutor - async-service-, 2. do submit,taskCount [35], completedTaskCount [35], activeCount [1], queueSize [0]
+2024-08-10 08:10:26.193 [async-service-2] INFO  cn.minalz.threadpool.AsyncServiceImpl - start executeAsync
+2024-08-10 08:10:26.193 [async-service-3] INFO  cn.minalz.threadpool.AsyncServiceImpl - end executeAsync
+2024-08-10 08:10:26.193 [async-service-2] INFO  cn.minalz.threadpool.AsyncServiceImpl - end executeAsync
+2024-08-10 08:10:26.193 [main] INFO  cn.minalz.threadpool.VisiableThreadPoolTaskExecutor - async-service-, 2. do submit,taskCount [37], completedTaskCount [35], activeCount [1], queueSize [0]
+2024-08-10 08:10:26.193 [async-service-5] INFO  cn.minalz.threadpool.AsyncServiceImpl - start executeAsync
+2024-08-10 08:10:26.193 [main] INFO  cn.minalz.threadpool.VisiableThreadPoolTaskExecutor - async-service-, 2. do submit,taskCount [38], completedTaskCount [37], activeCount [1], queueSize [0]
+2024-08-10 08:10:26.193 [async-service-5] INFO  cn.minalz.threadpool.AsyncServiceImpl - end executeAsync
+2024-08-10 08:10:26.193 [async-service-5] INFO  cn.minalz.threadpool.AsyncServiceImpl - start executeAsync
+2024-08-10 08:10:26.193 [main] INFO  cn.minalz.threadpool.VisiableThreadPoolTaskExecutor - async-service-, 2. do submit,taskCount [39], completedTaskCount [37], activeCount [1], queueSize [1]
+2024-08-10 08:10:26.194 [async-service-4] INFO  cn.minalz.threadpool.AsyncServiceImpl - start executeAsync
+2024-08-10 08:10:26.194 [main] INFO  cn.minalz.threadpool.VisiableThreadPoolTaskExecutor - async-service-, 2. do submit,taskCount [40], completedTaskCount [38], activeCount [1], queueSize [1]
+2024-08-10 08:10:26.194 [async-service-5] INFO  cn.minalz.threadpool.AsyncServiceImpl - end executeAsync
+2024-08-10 08:10:26.194 [main] INFO  cn.minalz.threadpool.VisiableThreadPoolTaskExecutor - async-service-, 2. do submit,taskCount [41], completedTaskCount [38], activeCount [2], queueSize [1]
+2024-08-10 08:10:26.194 [async-service-4] INFO  cn.minalz.threadpool.AsyncServiceImpl - end executeAsync
+2024-08-10 08:10:26.194 [async-service-4] INFO  cn.minalz.threadpool.AsyncServiceImpl - start executeAsync
+2024-08-10 08:10:26.194 [main] INFO  cn.minalz.threadpool.VisiableThreadPoolTaskExecutor - async-service-, 2. do submit,taskCount [42], completedTaskCount [40], activeCount [2], queueSize [0]
+2024-08-10 08:10:26.194 [async-service-4] INFO  cn.minalz.threadpool.AsyncServiceImpl - end executeAsync
+2024-08-10 08:10:26.194 [async-service-4] INFO  cn.minalz.threadpool.AsyncServiceImpl - start executeAsync
+2024-08-10 08:10:26.194 [async-service-4] INFO  cn.minalz.threadpool.AsyncServiceImpl - end executeAsync
+2024-08-10 08:10:26.194 [main] INFO  cn.minalz.threadpool.VisiableThreadPoolTaskExecutor - async-service-, 2. do submit,taskCount [43], completedTaskCount [41], activeCount [2], queueSize [0]
+2024-08-10 08:10:26.194 [async-service-5] INFO  cn.minalz.threadpool.AsyncServiceImpl - start executeAsync
+2024-08-10 08:10:26.194 [main] INFO  cn.minalz.threadpool.VisiableThreadPoolTaskExecutor - async-service-, 2. do submit,taskCount [44], completedTaskCount [42], activeCount [2], queueSize [0]
+2024-08-10 08:10:26.195 [async-service-5] INFO  cn.minalz.threadpool.AsyncServiceImpl - end executeAsync
+2024-08-10 08:10:26.195 [main] INFO  cn.minalz.threadpool.VisiableThreadPoolTaskExecutor - async-service-, 2. do submit,taskCount [45], completedTaskCount [42], activeCount [2], queueSize [1]
+2024-08-10 08:10:26.195 [async-service-5] INFO  cn.minalz.threadpool.AsyncServiceImpl - start executeAsync
+2024-08-10 08:10:26.195 [async-service-2] INFO  cn.minalz.threadpool.AsyncServiceImpl - start executeAsync
+2024-08-10 08:10:26.195 [main] INFO  cn.minalz.threadpool.VisiableThreadPoolTaskExecutor - async-service-, 2. do submit,taskCount [46], completedTaskCount [43], activeCount [2], queueSize [1]
+2024-08-10 08:10:26.195 [async-service-5] INFO  cn.minalz.threadpool.AsyncServiceImpl - end executeAsync
+2024-08-10 08:10:26.195 [async-service-5] INFO  cn.minalz.threadpool.AsyncServiceImpl - start executeAsync
+2024-08-10 08:10:26.195 [async-service-5] INFO  cn.minalz.threadpool.AsyncServiceImpl - end executeAsync
+2024-08-10 08:10:26.195 [async-service-2] INFO  cn.minalz.threadpool.AsyncServiceImpl - end executeAsync
+2024-08-10 08:10:26.195 [main] INFO  cn.minalz.threadpool.VisiableThreadPoolTaskExecutor - async-service-, 2. do submit,taskCount [47], completedTaskCount [44], activeCount [3], queueSize [0]
+2024-08-10 08:10:26.194 [async-service-3] INFO  cn.minalz.threadpool.AsyncServiceImpl - start executeAsync
+2024-08-10 08:10:26.195 [async-service-3] INFO  cn.minalz.threadpool.AsyncServiceImpl - end executeAsync
+2024-08-10 08:10:26.195 [async-service-1] INFO  cn.minalz.threadpool.AsyncServiceImpl - start executeAsync
+2024-08-10 08:10:26.195 [main] INFO  cn.minalz.threadpool.VisiableThreadPoolTaskExecutor - async-service-, 2. do submit,taskCount [48], completedTaskCount [46], activeCount [1], queueSize [1]
+2024-08-10 08:10:26.195 [async-service-1] INFO  cn.minalz.threadpool.AsyncServiceImpl - end executeAsync
+2024-08-10 08:10:26.195 [async-service-4] INFO  cn.minalz.threadpool.AsyncServiceImpl - start executeAsync
+2024-08-10 08:10:26.195 [main] INFO  cn.minalz.threadpool.VisiableThreadPoolTaskExecutor - async-service-, 2. do submit,taskCount [49], completedTaskCount [47], activeCount [2], queueSize [0]
+2024-08-10 08:10:26.195 [async-service-4] INFO  cn.minalz.threadpool.AsyncServiceImpl - end executeAsync
+2024-08-10 08:10:26.195 [async-service-4] INFO  cn.minalz.threadpool.AsyncServiceImpl - start executeAsync
+2024-08-10 08:10:26.195 [main] INFO  cn.minalz.threadpool.VisiableThreadPoolTaskExecutor - async-service-, 2. do submit,taskCount [50], completedTaskCount [49], activeCount [0], queueSize [0]
+2024-08-10 08:10:26.195 [async-service-4] INFO  cn.minalz.threadpool.AsyncServiceImpl - end executeAsync
+2024-08-10 08:10:26.196 [async-service-4] INFO  cn.minalz.threadpool.AsyncServiceImpl - start executeAsync
+2024-08-10 08:10:26.196 [main] INFO  cn.minalz.threadpool.VisiableThreadPoolTaskExecutor - async-service-, 2. do submit,taskCount [51], completedTaskCount [50], activeCount [1], queueSize [0]
+2024-08-10 08:10:26.196 [async-service-4] INFO  cn.minalz.threadpool.AsyncServiceImpl - end executeAsync
+2024-08-10 08:10:26.196 [async-service-3] INFO  cn.minalz.threadpool.AsyncServiceImpl - start executeAsync
+2024-08-10 08:10:26.196 [main] INFO  cn.minalz.threadpool.VisiableThreadPoolTaskExecutor - async-service-, 2. do submit,taskCount [52], completedTaskCount [51], activeCount [1], queueSize [0]
+2024-08-10 08:10:26.196 [async-service-3] INFO  cn.minalz.threadpool.AsyncServiceImpl - end executeAsync
+2024-08-10 08:10:26.196 [async-service-1] INFO  cn.minalz.threadpool.AsyncServiceImpl - start executeAsync
+2024-08-10 08:10:26.196 [async-service-1] INFO  cn.minalz.threadpool.AsyncServiceImpl - end executeAsync
+2024-08-10 08:10:26.196 [main] INFO  cn.minalz.threadpool.VisiableThreadPoolTaskExecutor - async-service-, 2. do submit,taskCount [53], completedTaskCount [51], activeCount [2], queueSize [0]
+2024-08-10 08:10:26.196 [async-service-5] INFO  cn.minalz.threadpool.AsyncServiceImpl - start executeAsync
+2024-08-10 08:10:26.196 [async-service-5] INFO  cn.minalz.threadpool.AsyncServiceImpl - end executeAsync
+2024-08-10 08:10:26.196 [main] INFO  cn.minalz.threadpool.VisiableThreadPoolTaskExecutor - async-service-, 2. do submit,taskCount [54], completedTaskCount [53], activeCount [1], queueSize [0]
+2024-08-10 08:10:26.197 [async-service-2] INFO  cn.minalz.threadpool.AsyncServiceImpl - start executeAsync
+2024-08-10 08:10:26.197 [main] INFO  cn.minalz.threadpool.VisiableThreadPoolTaskExecutor - async-service-, 2. do submit,taskCount [55], completedTaskCount [54], activeCount [1], queueSize [0]
+2024-08-10 08:10:26.197 [async-service-2] INFO  cn.minalz.threadpool.AsyncServiceImpl - end executeAsync
+2024-08-10 08:10:26.197 [main] INFO  cn.minalz.threadpool.VisiableThreadPoolTaskExecutor - async-service-, 2. do submit,taskCount [56], completedTaskCount [54], activeCount [1], queueSize [1]
+2024-08-10 08:10:26.197 [async-service-2] INFO  cn.minalz.threadpool.AsyncServiceImpl - start executeAsync
+2024-08-10 08:10:26.197 [main] INFO  cn.minalz.threadpool.VisiableThreadPoolTaskExecutor - async-service-, 2. do submit,taskCount [57], completedTaskCount [55], activeCount [1], queueSize [1]
+2024-08-10 08:10:26.197 [async-service-2] INFO  cn.minalz.threadpool.AsyncServiceImpl - end executeAsync
+2024-08-10 08:10:26.197 [async-service-4] INFO  cn.minalz.threadpool.AsyncServiceImpl - start executeAsync
+2024-08-10 08:10:26.197 [async-service-1] INFO  cn.minalz.threadpool.AsyncServiceImpl - start executeAsync
+2024-08-10 08:10:26.197 [async-service-4] INFO  cn.minalz.threadpool.AsyncServiceImpl - end executeAsync
+2024-08-10 08:10:26.197 [main] INFO  cn.minalz.threadpool.VisiableThreadPoolTaskExecutor - async-service-, 2. do submit,taskCount [57], completedTaskCount [56], activeCount [2], queueSize [0]
+2024-08-10 08:10:26.197 [main] INFO  cn.minalz.threadpool.VisiableThreadPoolTaskExecutor - async-service-, 2. do submit,taskCount [59], completedTaskCount [57], activeCount [1], queueSize [1]
+2024-08-10 08:10:26.197 [async-service-1] INFO  cn.minalz.threadpool.AsyncServiceImpl - end executeAsync
+2024-08-10 08:10:26.198 [async-service-5] INFO  cn.minalz.threadpool.AsyncServiceImpl - start executeAsync
+2024-08-10 08:10:26.198 [main] INFO  cn.minalz.threadpool.VisiableThreadPoolTaskExecutor - async-service-, 2. do submit,taskCount [60], completedTaskCount [57], activeCount [2], queueSize [1]
+2024-08-10 08:10:26.198 [async-service-1] INFO  cn.minalz.threadpool.AsyncServiceImpl - start executeAsync
+2024-08-10 08:10:26.198 [async-service-5] INFO  cn.minalz.threadpool.AsyncServiceImpl - end executeAsync
+2024-08-10 08:10:26.198 [async-service-2] INFO  cn.minalz.threadpool.AsyncServiceImpl - start executeAsync
+2024-08-10 08:10:26.198 [main] INFO  cn.minalz.threadpool.VisiableThreadPoolTaskExecutor - async-service-, 2. do submit,taskCount [61], completedTaskCount [58], activeCount [2], queueSize [1]
+2024-08-10 08:10:26.198 [async-service-1] INFO  cn.minalz.threadpool.AsyncServiceImpl - end executeAsync
+2024-08-10 08:10:26.198 [async-service-2] INFO  cn.minalz.threadpool.AsyncServiceImpl - end executeAsync
+2024-08-10 08:10:26.198 [async-service-1] INFO  cn.minalz.threadpool.AsyncServiceImpl - start executeAsync
+2024-08-10 08:10:26.198 [async-service-1] INFO  cn.minalz.threadpool.AsyncServiceImpl - end executeAsync
+2024-08-10 08:10:26.198 [main] INFO  cn.minalz.threadpool.VisiableThreadPoolTaskExecutor - async-service-, 2. do submit,taskCount [62], completedTaskCount [59], activeCount [2], queueSize [1]
+2024-08-10 08:10:26.198 [async-service-3] INFO  cn.minalz.threadpool.AsyncServiceImpl - start executeAsync
+2024-08-10 08:10:26.198 [main] INFO  cn.minalz.threadpool.VisiableThreadPoolTaskExecutor - async-service-, 2. do submit,taskCount [63], completedTaskCount [62], activeCount [1], queueSize [0]
+2024-08-10 08:10:26.198 [async-service-3] INFO  cn.minalz.threadpool.AsyncServiceImpl - end executeAsync
+2024-08-10 08:10:26.199 [async-service-3] INFO  cn.minalz.threadpool.AsyncServiceImpl - start executeAsync
+2024-08-10 08:10:26.199 [main] INFO  cn.minalz.threadpool.VisiableThreadPoolTaskExecutor - async-service-, 2. do submit,taskCount [64], completedTaskCount [63], activeCount [1], queueSize [0]
+2024-08-10 08:10:26.199 [async-service-3] INFO  cn.minalz.threadpool.AsyncServiceImpl - end executeAsync
+2024-08-10 08:10:26.199 [async-service-2] INFO  cn.minalz.threadpool.AsyncServiceImpl - start executeAsync
+2024-08-10 08:10:26.199 [main] INFO  cn.minalz.threadpool.VisiableThreadPoolTaskExecutor - async-service-, 2. do submit,taskCount [65], completedTaskCount [63], activeCount [2], queueSize [0]
+2024-08-10 08:10:26.199 [async-service-2] INFO  cn.minalz.threadpool.AsyncServiceImpl - end executeAsync
+2024-08-10 08:10:26.199 [async-service-4] INFO  cn.minalz.threadpool.AsyncServiceImpl - start executeAsync
+2024-08-10 08:10:26.199 [main] INFO  cn.minalz.threadpool.VisiableThreadPoolTaskExecutor - async-service-, 2. do submit,taskCount [66], completedTaskCount [64], activeCount [1], queueSize [1]
+2024-08-10 08:10:26.199 [async-service-4] INFO  cn.minalz.threadpool.AsyncServiceImpl - end executeAsync
+2024-08-10 08:10:26.199 [async-service-1] INFO  cn.minalz.threadpool.AsyncServiceImpl - start executeAsync
+2024-08-10 08:10:26.199 [main] INFO  cn.minalz.threadpool.VisiableThreadPoolTaskExecutor - async-service-, 2. do submit,taskCount [67], completedTaskCount [65], activeCount [2], queueSize [0]
+2024-08-10 08:10:26.199 [async-service-1] INFO  cn.minalz.threadpool.AsyncServiceImpl - end executeAsync
+2024-08-10 08:10:26.199 [async-service-1] INFO  cn.minalz.threadpool.AsyncServiceImpl - start executeAsync
+2024-08-10 08:10:26.199 [main] INFO  cn.minalz.threadpool.VisiableThreadPoolTaskExecutor - async-service-, 2. do submit,taskCount [68], completedTaskCount [67], activeCount [1], queueSize [0]
+2024-08-10 08:10:26.200 [async-service-1] INFO  cn.minalz.threadpool.AsyncServiceImpl - end executeAsync
+2024-08-10 08:10:26.200 [async-service-3] INFO  cn.minalz.threadpool.AsyncServiceImpl - start executeAsync
+2024-08-10 08:10:26.200 [main] INFO  cn.minalz.threadpool.VisiableThreadPoolTaskExecutor - async-service-, 2. do submit,taskCount [69], completedTaskCount [67], activeCount [2], queueSize [0]
+2024-08-10 08:10:26.200 [async-service-2] INFO  cn.minalz.threadpool.AsyncServiceImpl - start executeAsync
+2024-08-10 08:10:26.200 [main] INFO  cn.minalz.threadpool.VisiableThreadPoolTaskExecutor - async-service-, 2. do submit,taskCount [70], completedTaskCount [68], activeCount [1], queueSize [1]
+2024-08-10 08:10:26.200 [async-service-3] INFO  cn.minalz.threadpool.AsyncServiceImpl - end executeAsync
+2024-08-10 08:10:26.200 [async-service-3] INFO  cn.minalz.threadpool.AsyncServiceImpl - start executeAsync
+2024-08-10 08:10:26.200 [async-service-2] INFO  cn.minalz.threadpool.AsyncServiceImpl - end executeAsync
+2024-08-10 08:10:26.200 [main] INFO  cn.minalz.threadpool.VisiableThreadPoolTaskExecutor - async-service-, 2. do submit,taskCount [71], completedTaskCount [68], activeCount [2], queueSize [1]
+2024-08-10 08:10:26.200 [async-service-3] INFO  cn.minalz.threadpool.AsyncServiceImpl - end executeAsync
+2024-08-10 08:10:26.200 [async-service-3] INFO  cn.minalz.threadpool.AsyncServiceImpl - start executeAsync
+2024-08-10 08:10:26.200 [main] INFO  cn.minalz.threadpool.VisiableThreadPoolTaskExecutor - async-service-, 2. do submit,taskCount [72], completedTaskCount [70], activeCount [1], queueSize [1]
+2024-08-10 08:10:26.200 [async-service-3] INFO  cn.minalz.threadpool.AsyncServiceImpl - end executeAsync
+2024-08-10 08:10:26.201 [async-service-1] INFO  cn.minalz.threadpool.AsyncServiceImpl - start executeAsync
+2024-08-10 08:10:26.200 [main] INFO  cn.minalz.threadpool.VisiableThreadPoolTaskExecutor - async-service-, 2. do submit,taskCount [73], completedTaskCount [71], activeCount [1], queueSize [1]
+2024-08-10 08:10:26.201 [async-service-1] INFO  cn.minalz.threadpool.AsyncServiceImpl - end executeAsync
+2024-08-10 08:10:26.201 [async-service-1] INFO  cn.minalz.threadpool.AsyncServiceImpl - start executeAsync
+2024-08-10 08:10:26.201 [async-service-1] INFO  cn.minalz.threadpool.AsyncServiceImpl - end executeAsync
+2024-08-10 08:10:26.201 [main] INFO  cn.minalz.threadpool.VisiableThreadPoolTaskExecutor - async-service-, 2. do submit,taskCount [74], completedTaskCount [73], activeCount [1], queueSize [0]
+2024-08-10 08:10:26.201 [main] INFO  cn.minalz.threadpool.VisiableThreadPoolTaskExecutor - async-service-, 2. do submit,taskCount [75], completedTaskCount [74], activeCount [0], queueSize [1]
+2024-08-10 08:10:26.201 [async-service-4] INFO  cn.minalz.threadpool.AsyncServiceImpl - start executeAsync
+2024-08-10 08:10:26.201 [async-service-4] INFO  cn.minalz.threadpool.AsyncServiceImpl - end executeAsync
+2024-08-10 08:10:26.201 [main] INFO  cn.minalz.threadpool.VisiableThreadPoolTaskExecutor - async-service-, 2. do submit,taskCount [76], completedTaskCount [74], activeCount [1], queueSize [1]
+2024-08-10 08:10:26.201 [async-service-4] INFO  cn.minalz.threadpool.AsyncServiceImpl - start executeAsync
+2024-08-10 08:10:26.202 [async-service-4] INFO  cn.minalz.threadpool.AsyncServiceImpl - end executeAsync
+2024-08-10 08:10:26.202 [async-service-4] INFO  cn.minalz.threadpool.AsyncServiceImpl - start executeAsync
+2024-08-10 08:10:26.202 [async-service-4] INFO  cn.minalz.threadpool.AsyncServiceImpl - end executeAsync
+2024-08-10 08:10:26.201 [main] INFO  cn.minalz.threadpool.VisiableThreadPoolTaskExecutor - async-service-, 2. do submit,taskCount [77], completedTaskCount [75], activeCount [1], queueSize [1]
+2024-08-10 08:10:26.202 [main] INFO  cn.minalz.threadpool.VisiableThreadPoolTaskExecutor - async-service-, 2. do submit,taskCount [78], completedTaskCount [77], activeCount [0], queueSize [1]
+2024-08-10 08:10:26.202 [main] INFO  cn.minalz.threadpool.VisiableThreadPoolTaskExecutor - async-service-, 2. do submit,taskCount [79], completedTaskCount [77], activeCount [0], queueSize [2]
+2024-08-10 08:10:26.202 [main] INFO  cn.minalz.threadpool.VisiableThreadPoolTaskExecutor - async-service-, 2. do submit,taskCount [80], completedTaskCount [77], activeCount [0], queueSize [3]
+2024-08-10 08:10:26.202 [async-service-5] INFO  cn.minalz.threadpool.AsyncServiceImpl - start executeAsync
+2024-08-10 08:10:26.203 [main] INFO  cn.minalz.threadpool.VisiableThreadPoolTaskExecutor - async-service-, 2. do submit,taskCount [81], completedTaskCount [77], activeCount [2], queueSize [2]
+2024-08-10 08:10:26.203 [async-service-1] INFO  cn.minalz.threadpool.AsyncServiceImpl - start executeAsync
+2024-08-10 08:10:26.203 [main] INFO  cn.minalz.threadpool.VisiableThreadPoolTaskExecutor - async-service-, 2. do submit,taskCount [82], completedTaskCount [77], activeCount [4], queueSize [1]
+2024-08-10 08:10:26.203 [async-service-5] INFO  cn.minalz.threadpool.AsyncServiceImpl - end executeAsync
+2024-08-10 08:10:26.203 [async-service-1] INFO  cn.minalz.threadpool.AsyncServiceImpl - end executeAsync
+2024-08-10 08:10:26.203 [async-service-2] INFO  cn.minalz.threadpool.AsyncServiceImpl - start executeAsync
+2024-08-10 08:10:26.203 [async-service-3] INFO  cn.minalz.threadpool.AsyncServiceImpl - start executeAsync
+2024-08-10 08:10:26.203 [async-service-1] INFO  cn.minalz.threadpool.AsyncServiceImpl - start executeAsync
+2024-08-10 08:10:26.203 [async-service-5] INFO  cn.minalz.threadpool.AsyncServiceImpl - start executeAsync
+2024-08-10 08:10:26.203 [main] INFO  cn.minalz.threadpool.VisiableThreadPoolTaskExecutor - async-service-, 2. do submit,taskCount [83], completedTaskCount [77], activeCount [4], queueSize [2]
+2024-08-10 08:10:26.203 [async-service-2] INFO  cn.minalz.threadpool.AsyncServiceImpl - end executeAsync
+2024-08-10 08:10:26.203 [async-service-3] INFO  cn.minalz.threadpool.AsyncServiceImpl - end executeAsync
+2024-08-10 08:10:26.203 [async-service-1] INFO  cn.minalz.threadpool.AsyncServiceImpl - end executeAsync
+2024-08-10 08:10:26.203 [async-service-5] INFO  cn.minalz.threadpool.AsyncServiceImpl - end executeAsync
+2024-08-10 08:10:26.203 [async-service-2] INFO  cn.minalz.threadpool.AsyncServiceImpl - start executeAsync
+2024-08-10 08:10:26.203 [main] INFO  cn.minalz.threadpool.VisiableThreadPoolTaskExecutor - async-service-, 2. do submit,taskCount [84], completedTaskCount [80], activeCount [4], queueSize [0]
+2024-08-10 08:10:26.204 [async-service-2] INFO  cn.minalz.threadpool.AsyncServiceImpl - end executeAsync
+2024-08-10 08:10:26.204 [async-service-2] INFO  cn.minalz.threadpool.AsyncServiceImpl - start executeAsync
+2024-08-10 08:10:26.204 [async-service-2] INFO  cn.minalz.threadpool.AsyncServiceImpl - end executeAsync
+2024-08-10 08:10:26.204 [main] INFO  cn.minalz.threadpool.VisiableThreadPoolTaskExecutor - async-service-, 2. do submit,taskCount [85], completedTaskCount [83], activeCount [1], queueSize [1]
+2024-08-10 08:10:26.204 [main] INFO  cn.minalz.threadpool.VisiableThreadPoolTaskExecutor - async-service-, 2. do submit,taskCount [86], completedTaskCount [85], activeCount [0], queueSize [1]
+2024-08-10 08:10:26.204 [async-service-4] INFO  cn.minalz.threadpool.AsyncServiceImpl - start executeAsync
+2024-08-10 08:10:26.204 [async-service-4] INFO  cn.minalz.threadpool.AsyncServiceImpl - end executeAsync
+2024-08-10 08:10:26.204 [main] INFO  cn.minalz.threadpool.VisiableThreadPoolTaskExecutor - async-service-, 2. do submit,taskCount [87], completedTaskCount [85], activeCount [1], queueSize [1]
+2024-08-10 08:10:26.204 [async-service-1] INFO  cn.minalz.threadpool.AsyncServiceImpl - start executeAsync
+2024-08-10 08:10:26.204 [async-service-5] INFO  cn.minalz.threadpool.AsyncServiceImpl - start executeAsync
+2024-08-10 08:10:26.204 [main] INFO  cn.minalz.threadpool.VisiableThreadPoolTaskExecutor - async-service-, 2. do submit,taskCount [88], completedTaskCount [86], activeCount [1], queueSize [1]
+2024-08-10 08:10:26.205 [async-service-1] INFO  cn.minalz.threadpool.AsyncServiceImpl - end executeAsync
+2024-08-10 08:10:26.205 [async-service-5] INFO  cn.minalz.threadpool.AsyncServiceImpl - end executeAsync
+2024-08-10 08:10:26.205 [main] INFO  cn.minalz.threadpool.VisiableThreadPoolTaskExecutor - async-service-, 2. do submit,taskCount [89], completedTaskCount [86], activeCount [3], queueSize [0]
+2024-08-10 08:10:26.205 [async-service-3] INFO  cn.minalz.threadpool.AsyncServiceImpl - start executeAsync
+2024-08-10 08:10:26.205 [main] INFO  cn.minalz.threadpool.VisiableThreadPoolTaskExecutor - async-service-, 2. do submit,taskCount [90], completedTaskCount [88], activeCount [1], queueSize [1]
+2024-08-10 08:10:26.205 [async-service-3] INFO  cn.minalz.threadpool.AsyncServiceImpl - end executeAsync
+2024-08-10 08:10:26.205 [async-service-2] INFO  cn.minalz.threadpool.AsyncServiceImpl - start executeAsync
+2024-08-10 08:10:26.205 [async-service-4] INFO  cn.minalz.threadpool.AsyncServiceImpl - start executeAsync
+2024-08-10 08:10:26.205 [main] INFO  cn.minalz.threadpool.VisiableThreadPoolTaskExecutor - async-service-, 2. do submit,taskCount [91], completedTaskCount [88], activeCount [3], queueSize [0]
+2024-08-10 08:10:26.205 [async-service-2] INFO  cn.minalz.threadpool.AsyncServiceImpl - end executeAsync
+2024-08-10 08:10:26.205 [async-service-4] INFO  cn.minalz.threadpool.AsyncServiceImpl - end executeAsync
+2024-08-10 08:10:26.205 [main] INFO  cn.minalz.threadpool.VisiableThreadPoolTaskExecutor - async-service-, 2. do submit,taskCount [92], completedTaskCount [89], activeCount [2], queueSize [1]
+2024-08-10 08:10:26.205 [async-service-2] INFO  cn.minalz.threadpool.AsyncServiceImpl - start executeAsync
+2024-08-10 08:10:26.205 [main] INFO  cn.minalz.threadpool.VisiableThreadPoolTaskExecutor - async-service-, 2. do submit,taskCount [93], completedTaskCount [91], activeCount [1], queueSize [1]
+2024-08-10 08:10:26.205 [async-service-2] INFO  cn.minalz.threadpool.AsyncServiceImpl - end executeAsync
+2024-08-10 08:10:26.205 [async-service-5] INFO  cn.minalz.threadpool.AsyncServiceImpl - start executeAsync
+2024-08-10 08:10:26.205 [main] INFO  cn.minalz.threadpool.VisiableThreadPoolTaskExecutor - async-service-, 2. do submit,taskCount [94], completedTaskCount [91], activeCount [2], queueSize [0]
+2024-08-10 08:10:26.205 [async-service-3] INFO  cn.minalz.threadpool.AsyncServiceImpl - start executeAsync
+2024-08-10 08:10:26.205 [async-service-5] INFO  cn.minalz.threadpool.AsyncServiceImpl - end executeAsync
+2024-08-10 08:10:26.205 [main] INFO  cn.minalz.threadpool.VisiableThreadPoolTaskExecutor - async-service-, 2. do submit,taskCount [95], completedTaskCount [92], activeCount [2], queueSize [1]
+2024-08-10 08:10:26.205 [async-service-1] INFO  cn.minalz.threadpool.AsyncServiceImpl - start executeAsync
+2024-08-10 08:10:26.205 [async-service-3] INFO  cn.minalz.threadpool.AsyncServiceImpl - end executeAsync
+2024-08-10 08:10:26.205 [async-service-1] INFO  cn.minalz.threadpool.AsyncServiceImpl - end executeAsync
+2024-08-10 08:10:26.205 [async-service-4] INFO  cn.minalz.threadpool.AsyncServiceImpl - start executeAsync
+2024-08-10 08:10:26.205 [async-service-4] INFO  cn.minalz.threadpool.AsyncServiceImpl - end executeAsync
+2024-08-10 08:10:26.205 [main] INFO  cn.minalz.threadpool.VisiableThreadPoolTaskExecutor - async-service-, 2. do submit,taskCount [96], completedTaskCount [93], activeCount [3], queueSize [0]
+2024-08-10 08:10:26.205 [async-service-2] INFO  cn.minalz.threadpool.AsyncServiceImpl - start executeAsync
+2024-08-10 08:10:26.205 [async-service-2] INFO  cn.minalz.threadpool.AsyncServiceImpl - end executeAsync
+2024-08-10 08:10:26.205 [main] INFO  cn.minalz.threadpool.VisiableThreadPoolTaskExecutor - async-service-, 2. do submit,taskCount [97], completedTaskCount [96], activeCount [1], queueSize [0]
+2024-08-10 08:10:26.205 [async-service-5] INFO  cn.minalz.threadpool.AsyncServiceImpl - start executeAsync
+2024-08-10 08:10:26.205 [main] INFO  cn.minalz.threadpool.VisiableThreadPoolTaskExecutor - async-service-, 2. do submit,taskCount [98], completedTaskCount [97], activeCount [1], queueSize [0]
+2024-08-10 08:10:26.207 [async-service-5] INFO  cn.minalz.threadpool.AsyncServiceImpl - end executeAsync
+2024-08-10 08:10:26.207 [async-service-3] INFO  cn.minalz.threadpool.AsyncServiceImpl - start executeAsync
+2024-08-10 08:10:26.207 [main] INFO  cn.minalz.threadpool.VisiableThreadPoolTaskExecutor - async-service-, 2. do submit,taskCount [99], completedTaskCount [97], activeCount [2], queueSize [0]
+2024-08-10 08:10:26.207 [async-service-3] INFO  cn.minalz.threadpool.AsyncServiceImpl - end executeAsync
+2024-08-10 08:10:26.207 [async-service-1] INFO  cn.minalz.threadpool.AsyncServiceImpl - start executeAsync
+2024-08-10 08:10:26.207 [async-service-1] INFO  cn.minalz.threadpool.AsyncServiceImpl - end executeAsync
+2024-08-10 08:10:26.217 [SpringContextShutdownHook] INFO  org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer - Waiting for workers to finish.
+2024-08-10 08:10:27.044 [SpringContextShutdownHook] INFO  org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer - Successfully waited for workers to finish.
+2024-08-10 08:10:27.055 [SpringContextShutdownHook] INFO  org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer - Shutdown ignored - container is not active already
+2024-08-10 08:10:27.056 [SpringContextShutdownHook] INFO  cn.minalz.threadpool.VisiableThreadPoolTaskExecutor - Shutting down ExecutorService 'asyncServiceExecutor'
+2024-08-10 10:20:10.223 [restartedMain] INFO  cn.minalz.KernelApplication - Starting KernelApplication on DESKTOP-O81UJ9D with PID 17152 (D:\BBBWorkSpace\study-demo\target\classes started by pc in D:\BBBWorkSpace\study-demo)
+2024-08-10 10:20:10.224 [restartedMain] INFO  cn.minalz.KernelApplication - No active profile set, falling back to default profiles: default
+2024-08-10 10:20:10.281 [restartedMain] INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-08-10 10:20:10.281 [restartedMain] INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-08-10 10:20:10.903 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2024-08-10 10:20:10.908 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2024-08-10 10:20:10.909 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2024-08-10 10:20:10.909 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.29]
+2024-08-10 10:20:10.956 [restartedMain] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-08-10 10:20:10.956 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 675 ms
+2024-08-10 10:20:11.176 [restartedMain] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2024-08-10 10:20:11.855 [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2024-08-10 10:20:11.901 [restartedMain] INFO  org.springframework.amqp.rabbit.connection.CachingConnectionFactory - Attempting to connect to: [192.168.3.104:5672]
+2024-08-10 10:20:11.918 [restartedMain] INFO  org.springframework.amqp.rabbit.connection.CachingConnectionFactory - Created new connection: rabbitConnectionFactory#299e1cf4:0/SimpleConnection@62ecfec [delegate=amqp://admin@192.168.3.104:5672/my_vhost, localPort= 57126]
+2024-08-10 10:20:11.946 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2024-08-10 10:20:11.956 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path ''
+2024-08-10 10:20:11.958 [restartedMain] INFO  cn.minalz.KernelApplication - Started KernelApplication in 1.925 seconds (JVM running for 2.609)
+2024-08-10 10:32:28.584 [SpringContextShutdownHook] INFO  org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer - Waiting for workers to finish.
+2024-08-10 10:33:31.854 [restartedMain] INFO  cn.minalz.KernelApplication - Starting KernelApplication on DESKTOP-O81UJ9D with PID 468 (D:\BBBWorkSpace\study-demo\target\classes started by pc in D:\BBBWorkSpace\study-demo)
+2024-08-10 10:33:31.857 [restartedMain] INFO  cn.minalz.KernelApplication - No active profile set, falling back to default profiles: default
+2024-08-10 10:33:31.922 [restartedMain] INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-08-10 10:33:31.922 [restartedMain] INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-08-10 10:33:32.618 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2024-08-10 10:33:32.623 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2024-08-10 10:33:32.624 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2024-08-10 10:33:32.624 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.29]
+2024-08-10 10:33:32.674 [restartedMain] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-08-10 10:33:32.676 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 752 ms
+2024-08-10 10:33:32.921 [restartedMain] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2024-08-10 10:33:33.687 [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2024-08-10 10:33:33.754 [restartedMain] INFO  org.springframework.amqp.rabbit.connection.CachingConnectionFactory - Attempting to connect to: [192.168.3.104:5672]
+2024-08-10 10:33:33.778 [restartedMain] INFO  org.springframework.amqp.rabbit.connection.CachingConnectionFactory - Created new connection: rabbitConnectionFactory#66aa8582:0/SimpleConnection@6b5ec74 [delegate=amqp://admin@192.168.3.104:5672/my_vhost, localPort= 57413]
+2024-08-10 10:33:33.818 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2024-08-10 10:33:33.833 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path ''
+2024-08-10 10:33:33.835 [restartedMain] INFO  cn.minalz.KernelApplication - Started KernelApplication in 2.209 seconds (JVM running for 3.13)
+2024-08-10 10:42:55.162 [SpringContextShutdownHook] INFO  org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer - Waiting for workers to finish.
+2024-08-10 10:42:55.189 [SpringContextShutdownHook] INFO  org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer - Successfully waited for workers to finish.
+2024-08-10 10:42:55.191 [SpringContextShutdownHook] INFO  org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer - Shutdown ignored - container is not active already
+2024-08-10 10:42:55.191 [SpringContextShutdownHook] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2024-08-10 10:43:30.092 [restartedMain] INFO  cn.minalz.KernelApplication - Starting KernelApplication on DESKTOP-O81UJ9D with PID 14776 (D:\BBBWorkSpace\study-demo\target\classes started by pc in D:\BBBWorkSpace\study-demo)
+2024-08-10 10:43:30.093 [restartedMain] INFO  cn.minalz.KernelApplication - No active profile set, falling back to default profiles: default
+2024-08-10 10:43:30.132 [restartedMain] INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-08-10 10:43:30.132 [restartedMain] INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-08-10 10:43:30.753 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2024-08-10 10:43:30.757 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2024-08-10 10:43:30.757 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2024-08-10 10:43:30.758 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.29]
+2024-08-10 10:43:30.803 [restartedMain] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-08-10 10:43:30.804 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 671 ms
+2024-08-10 10:43:31.038 [restartedMain] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2024-08-10 10:43:31.707 [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2024-08-10 10:43:31.752 [restartedMain] INFO  org.springframework.amqp.rabbit.connection.CachingConnectionFactory - Attempting to connect to: [192.168.3.104:5672]
+2024-08-10 10:43:31.768 [restartedMain] INFO  org.springframework.amqp.rabbit.connection.CachingConnectionFactory - Created new connection: rabbitConnectionFactory#2b0e8b54:0/SimpleConnection@304ecd00 [delegate=amqp://admin@192.168.3.104:5672/my_vhost, localPort= 57669]
+2024-08-10 10:43:31.795 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2024-08-10 10:43:31.805 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path ''
+2024-08-10 10:43:31.807 [restartedMain] INFO  cn.minalz.KernelApplication - Started KernelApplication in 1.904 seconds (JVM running for 2.579)
+2024-08-10 10:57:46.874 [SpringContextShutdownHook] INFO  org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer - Waiting for workers to finish.
+2024-08-10 10:57:47.401 [SpringContextShutdownHook] INFO  org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer - Successfully waited for workers to finish.
+2024-08-10 10:57:47.405 [SpringContextShutdownHook] INFO  org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer - Shutdown ignored - container is not active already
+2024-08-10 10:57:47.406 [SpringContextShutdownHook] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2024-08-10 11:01:35.492 [restartedMain] INFO  cn.minalz.KernelApplication - Starting KernelApplication on DESKTOP-O81UJ9D with PID 7788 (D:\BBBWorkSpace\study-demo\target\classes started by pc in D:\BBBWorkSpace\study-demo)
+2024-08-10 11:01:35.494 [restartedMain] INFO  cn.minalz.KernelApplication - The following profiles are active: -javaagent:D:/BBBWorkSpace/study-demo/target\study-demo-0.0.1-SNAPSHOT-jar-with-dependencies.jarcn.minalz.agent.agentmain.PrintNumTest,-javaagent:D:/BBBWorkSpace/study-demo/target\study-demo-0.0.1-SNAPSHOT-jar-with-dependencies.jar  cn.minalz.agent.agentmain.PrintNumTest
+2024-08-10 11:01:35.551 [restartedMain] INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-08-10 11:01:35.552 [restartedMain] INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-08-10 11:01:36.205 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2024-08-10 11:01:36.210 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2024-08-10 11:01:36.211 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2024-08-10 11:01:36.211 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.29]
+2024-08-10 11:01:36.261 [restartedMain] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-08-10 11:01:36.261 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 709 ms
+2024-08-10 11:01:36.478 [restartedMain] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2024-08-10 11:01:37.200 [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2024-08-10 11:01:37.251 [restartedMain] INFO  org.springframework.amqp.rabbit.connection.CachingConnectionFactory - Attempting to connect to: [192.168.3.104:5672]
+2024-08-10 11:01:37.270 [restartedMain] INFO  org.springframework.amqp.rabbit.connection.CachingConnectionFactory - Created new connection: rabbitConnectionFactory#3ab246ac:0/SimpleConnection@5e7d4440 [delegate=amqp://admin@192.168.3.104:5672/my_vhost, localPort= 58019]
+2024-08-10 11:01:37.298 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2024-08-10 11:01:37.308 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path ''
+2024-08-10 11:01:37.311 [restartedMain] INFO  cn.minalz.KernelApplication - Started KernelApplication in 2.028 seconds (JVM running for 2.716)
+2024-08-10 11:02:17.319 [SpringContextShutdownHook] INFO  org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer - Waiting for workers to finish.
+2024-08-10 11:02:17.320 [SpringContextShutdownHook] INFO  org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer - Successfully waited for workers to finish.
+2024-08-10 11:02:17.323 [SpringContextShutdownHook] INFO  org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer - Shutdown ignored - container is not active already
+2024-08-10 11:02:17.324 [SpringContextShutdownHook] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'

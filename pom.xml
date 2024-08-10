@@ -48,7 +48,7 @@
         <dependency>
             <groupId>com.baomidou</groupId>
             <artifactId>mybatis-plus-boot-starter</artifactId>
-            <version>3.2.0</version>
+            <version>3.5.1</version>
         </dependency>
         <dependency>
             <groupId>mysql</groupId>
@@ -59,7 +59,7 @@
         <dependency>
             <groupId>com.baomidou</groupId>
             <artifactId>mybatis-plus-generator</artifactId>
-            <version>3.2.0</version>
+            <version>3.5.1</version>
         </dependency>
         <dependency>
             <groupId>com.ibeetl</groupId>
@@ -166,6 +166,15 @@
             <version>6.0</version>
         </dependency>
 
+        <dependency>
+            <groupId>com.sun</groupId>
+            <artifactId>tools</artifactId>
+            <version>1.8.0</version>
+            <scope>system</scope>
+            <systemPath>D:/jdk1.8/lib/tools.jar</systemPath>
+        </dependency>
+
+
 
     </dependencies>
 
@@ -183,8 +192,10 @@
                     <archive>
                         <manifestEntries>
                             // 指定premain()的所在方法
-                            <Agent-CLass>cn.minalz.agent.AgentMain</Agent-CLass>
-                            <Premain-Class>cn.minalz.agent.AgentMain</Premain-Class>
+                            <!--<Agent-CLass>cn.minalz.agent.premain.PreMain</Agent-CLass>
+                            <Premain-Class>cn.minalz.agent.premain.PreMain</Premain-Class>-->
+                            <Agent-CLass>cn.minalz.agent.agentmain.PrintNumAgent</Agent-CLass>
+                            <Premain-Class>cn.minalz.agent.agentmain.PrintNumAgent</Premain-Class>
                             <Can-Redefine-Classes>true</Can-Redefine-Classes>
                             <Can-Retransform-Classes>true</Can-Retransform-Classes>
                         </manifestEntries>

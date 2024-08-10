@@ -1,4 +1,4 @@
-package cn.minalz.agent;
+package cn.minalz.agent.premain;
 
 import org.objectweb.asm.MethodVisitor;
 import org.objectweb.asm.Opcodes;
@@ -14,7 +14,7 @@ public class TimeStatisticsAdapter extends AdviceAdapter {
     @Override
     protected void onMethodEnter() {
         // 进入函数时调用TimeStatistics的静态方法start
-        super.visitMethodInsn(Opcodes.INVOKESTATIC, "cn/minalz/agent/TimeStatistics", "start", "()V", false);
+        super.visitMethodInsn(Opcodes.INVOKESTATIC, "cn/minalz/agent/premain/TimeStatistics", "start", "()V", false);
         super.onMethodEnter();
     }
 
@@ -22,7 +22,7 @@ public class TimeStatisticsAdapter extends AdviceAdapter {
     protected void onMethodExit(int opcode) {
         // 退出函数时调用TimeStatistics的静态方法end
         super.onMethodExit(opcode);
-        super.visitMethodInsn(Opcodes.INVOKESTATIC, "cn/minalz/agent/TimeStatistics", "end", "()V", false);
+        super.visitMethodInsn(Opcodes.INVOKESTATIC, "cn/minalz/agent/premain/TimeStatistics", "end", "()V", false);
     }
 }
 
