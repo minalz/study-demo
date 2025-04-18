@@ -30,6 +30,14 @@ spring:
     username: admin
     password: 123
 # ------ rabbitmq的配置 ------
+# ------ redisson的配置 ------
+  redis:
+    redisson:
+      config:
+        address: "redis://192.168.3.104:6379"
+        password:
+        database: 1
+ # ------ redisson的配置 ------
 
 mybatis:
   mapperLocations: classpath:mapper/*.xml
