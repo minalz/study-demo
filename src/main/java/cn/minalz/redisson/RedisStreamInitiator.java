@@ -47,8 +47,8 @@ public class RedisStreamInitiator implements ApplicationRunner {
                 log.error("测试消息组已存在,无需创建");
             }
         }
-        MyTestConsumer consumer = new MyTestConsumer(redissonClient, "my_test_consumer_1");
-        consumer.startProcessing();
+//        MyTestConsumer consumer = new MyTestConsumer(redissonClient, "my_test_consumer_1");
+//        consumer.startProcessing();
     }
 
 }
