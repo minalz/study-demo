@@ -1,0 +1,28 @@
+{
+  "templateName": "增值税专用发票-PDF",
+  "pageSize": "A4",
+  "orientation": "LANDSCAPE",
+  "marginLeft": 40,
+  "marginRight": 40,
+  "marginTop": 30,
+  "marginBottom": 30,
+  "fontSize": 10,
+  "headerFontSize": 12,
+  "headerTitle": "增值税专用发票明细表",
+  "columns": [
+    {"field": "invoiceCode",   "title": "发票代码", "width": 15},
+    {"field": "invoiceNumber", "title": "发票号码", "width": 15},
+    {"field": "invoiceDate",   "title": "开票日期", "width": 12},
+    {"field": "buyerName",     "title": "购买方",   "width": 25},
+    {"field": "totalAmount",   "title": "金额",     "width": 15, "pattern": "#,##0.00"},
+    {"field": "totalTax",      "title": "税额",     "width": 15, "pattern": "#,##0.00"}
+  ],
+  "seal": {
+    "imagePath": "seal.png",
+    "pageX": 500,
+    "pageY": 400,
+    "width": 80,
+    "height": 80,
+    "onEveryPage": true
+  }
+}
