@@ -59,6 +59,7 @@ public class PdfService {
             browser.close();
             return pdf;
         }
+
     }
 
     private String inlineImg(String html) {
@@ -86,6 +87,5 @@ public class PdfService {
         }
         return html;
     }
-
 
 }
